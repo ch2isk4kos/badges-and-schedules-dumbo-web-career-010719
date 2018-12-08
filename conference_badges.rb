@@ -4,6 +4,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(badge)
+    # returns an array of badge messages, using badge_maker
     badge.collect do |name|
         badge_maker(name)
     end
